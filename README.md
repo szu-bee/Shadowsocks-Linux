@@ -1,8 +1,4 @@
-在[最新版下载地址](https://github.com/shadowsocks/shadowsocks-android/releases)下最新版的apk文件(目前是v4.0.3)，传到手机上，安装。
-```
-如果不知道怎么安装(非手机上直接通过浏览器或下载的)apk文件，最简单的方法是用QQ浏览器的文件管理，如果是用微信传的文件就在微信文件那一栏找，找到刚传的安装包，QQ浏览器会识别它是可安装文件。
-```
-其实也可以直接在手机上打开那个网址，直接在手机浏览器下载，没被墙。
+在[最新版下载地址](https://github.com/shadowsocks/shadowsocks-android/releases)下最新版的apk文件(目前是v4.0.3)，安装。
 
 >安装完成后，界面如下
 ![ps: 我的手机语言设置成英文的了, 所以界面上的文字都是英文](http://upload-images.jianshu.io/upload_images/2255197-e5cff5b78635c009.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
@@ -32,10 +28,9 @@ Route设置成Bypass LAN & mainland China，Per-APP Proxy可设置哪些应用�
 第一步：配置Shadowsocks命令行程序
 ```
 打开终端，输入：
-// ubuntu16.04及以上版本可使用apt代替apt-get
-sudo apt-get update                              // 最好先更新一下
-sudo apt-get install python-pip                  // 安装pip 
-sudo apt-get install python-setuptools m2crypto  // 安装setuptools和M2Crypto
+sudo apt update                              // 最好先更新一下
+sudo apt install python-pip                  // 安装pip 
+sudo apt install python-setuptools m2crypto  // 安装setuptools和M2Crypto
 sudo pip install shadowsocks                     // 安装Shadowsocks
 // 启动Shadowsocks
 sslocal -s 服务器域名或IP -p 服务器端口号 -k “密码” -l 1080 -t 600 -m rc4-md5 
