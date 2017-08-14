@@ -1,20 +1,3 @@
-在[最新版下载地址](https://github.com/shadowsocks/shadowsocks-android/releases)下最新版的apk文件(目前是v4.0.3)，安装。
-
->安装完成后，界面如下
-![ps: 我的手机语言设置成英文的了, 所以界面上的文字都是英文](http://upload-images.jianshu.io/upload_images/2255197-e5cff5b78635c009.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-```
-Profile Name任意取名，Server是服务器端的IP地址(输入域名好像会连接失败, 把域名在终端ping一下，获取IP)，
-Remote Port当然也是服务器端给的，Local Port默认是1080，
-Password不用多说，Encrypt Method看服务器端的设置。
-```
-![](http://upload-images.jianshu.io/upload_images/2255197-4baa6abdec904345.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-```
-Route设置成Bypass LAN & mainland China，Per-APP Proxy可设置哪些应用使用代理，也可不勾选，使用全局代理。
-主要UDP Forwarding不要勾选，有些不支持的会导致连接失败。
-以上设置完成后，点右上方的勾，即可保存设置。
-```
-![设置完成后, 点击右下方的纸飞机图标, 就可以“搭小飞机出国”啦](http://upload-images.jianshu.io/upload_images/2255197-d59870214e3a1da3.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
 关于电脑上配置shadowsocks的说明网上有很多参考，部分不再另写说明。[Shadowsocks 使用说明](https://github.com/shadowsocks/shadowsocks/wiki/Shadowsocks-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)
 
 这里给出Linux下客户端配置的一些参考方案：
